@@ -29,12 +29,18 @@ const getRandomInt = (min, max) => {
 }
 
 const generateHint = () =>  {
-  // your code here
-}
+  function split(string) 
+    return string.split('');
+  }
 
 const mastermind = (guess) => {
-  solution = 'abcd'; // Comment this out to generate a random solution
-  // your code here
+  //solution = 'abcd'; // Comment this out to generate a random solution
+  (board.push(guess));
+  if (rightLetterRightPlace = 4) {
+    return('You guessed it!');
+  } else 
+    generateHint(solution, guess);
+ 
 }
 
 
